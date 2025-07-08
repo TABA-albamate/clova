@@ -21,10 +21,9 @@ with open("credentials.json") as f:
 
 # CLOVA OCR 엔드포인트 & 시크릿 (테스트용 하드코딩)
 CLOVA_URL = (
-    "https://r5hblmakxq.apigw.ntruss.com/custom/v1/"
-    "43855/ce0fa66e74d324fba49bbe8f32c5638ad6f218fa5e522a96d3f8a33a863d17a5/general"
+    "각자의 url"
 )
-CLOVA_SECRET = "c0hRUmJQT2NIY1FtcFVYRGZnSnpheVZRYXlLZGRmZ1k="
+CLOVA_SECRET = "각자의 시크릿"
 HEADERS = {"X-OCR-SECRET": CLOVA_SECRET, "Content-Type": "application/json"}
 
 
